@@ -86,7 +86,7 @@ MonoBehaviour:
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96
   m_DynamicPixelsPerUnit: 50
-  m_PresetInfoIsWorld: 1
+  m_PresetInfoIsWorld: 0
 --- !u!114 &2408474323728566941
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -118,7 +118,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   icon: {fileID: 21300000, guid: 76ede8aefa2c70a42ae0a9bba2350d3d, type: 3}
   background: {fileID: 21300000, guid: 4be10dfd155bab14ab05a8e9dba4837a, type: 3}
-  interactClip: {fileID: 0}
+  interactClip: {fileID: 8300000, guid: 9c43999c4a17850458d3ed33b9626429, type: 3}
   imageRenderer: {fileID: 0}
   textObject: {fileID: 0}
 --- !u!222 &2408474323728566943

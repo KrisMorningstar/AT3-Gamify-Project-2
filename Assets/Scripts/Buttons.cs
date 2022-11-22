@@ -48,4 +48,8 @@ public class Buttons : MonoBehaviour
     {
         player.transform.position = rooms[3].transform.position;
     }
+    public void Quit()
+    {
+        Application.Quit();
+    }
 }

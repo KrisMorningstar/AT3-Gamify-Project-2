@@ -15,8 +15,8 @@ public class DigitalTooltip : InteractableObject
     [Tooltip("This is the audio clip that will play when notes are opened/closed.")]
     [SerializeField] private AudioClip interactClip;
 
-    [SerializeField] private Image imageRenderer; //should be a child of this object
-    [SerializeField] private GameObject textObject; //should be a child of the image renderer object
+    private Image imageRenderer; //should be a child of this object
+    private GameObject textObject; //should be a child of the image renderer object
     private AudioSource audioSource;
 
     //Awake is executed before the Start method
